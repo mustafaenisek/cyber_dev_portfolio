@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPortfolio</title>
+    
+    <!-- Google Fonts: Orbitron for headers, Roboto for text -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Link to our CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Grid Effect -->
+    <div class="scanlines"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">DEV_PORTFOLIO<span class="accent">_V1</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+         <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 id="glitch-text" data-value="SYSTEM_ONLINE">SYSTEM_</h1>
+                <h2 class="sub-title">I build digital experiences.</h2>
+                
+                <!-- Typewriter Effect Container -->
+                <div class="typewriter-container">
+                    
+                    <p id="typewriter-text"></p>
+                </div>
+                
+                <a href="#projects" class="btn-main">View Codebase</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <h2 class="section-title"><span>01.</span> Profile_Data</h2>
+            <div class="about-grid">
+                <div class="text-content">
+                    <p>Hello. I am a frontend developer specializing in modern web technologies. My code runs on HTML, CSS, and logic.</p>
+                    <p>I focus on responsive design, performance optimization, and accessible user experiences.</p>
+                    <ul class="skills-list">
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <h2 class="section-title"><span>02.</span> Project_Logs</h2>
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>React App Clone</h3>
+                    <p>A full stack clone built with modern frameworks.</p>
+                    <a href="#" class="btn-secondary">Launch_Demo</a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Cyber Dashboard</h3>
+                    <p>A responsive analytics dashboard with dark mode.</p>
+                    <a href="#" class="btn-secondary">View_GitHub</a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce UI</h3>
+                    <p>Styled product cards with hover animations.</p>
+                    <a href="#" class="btn-secondary">Launch_Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2 class="section-title"><span>03.</span> Connect_Node</h2>
+            <p>I am currently open for new opportunities.</p>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Name / Username" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Message..." rows="5"></textarea>
+                <button type="submit" class="btn-main">Transmit_Data</button>
+            </form>
+            
+            <div class="socials">
+                <a href="https://github.com/mustafaenisek"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mustafa-enis-ek/"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 DevPortfolio. All systems operational.</p>
+    </footer>
+
+    <!-- Link to JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
